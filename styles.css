@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  &:hover {
+    background-color: #aad2ff;
+  }
+}
+
+.search-button {
+  background-color: #008CBA;
+}
+
+.rate-button {
+  background-color: #f44336;
+}
+.icon-button {
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px; 
+}
+
+.icon-button img {
+  width: 200px;
+  height: 200px; 
+}
+#search-isp {
+  font-size: 50px;
+  text-align: center;
+}
+#rate-isp {
+  font-size: 50px;
+  text-align: center;
+}
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
